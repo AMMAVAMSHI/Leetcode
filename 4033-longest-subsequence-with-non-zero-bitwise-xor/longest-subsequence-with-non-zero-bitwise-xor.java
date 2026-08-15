@@ -9,8 +9,7 @@ class Solution {
         }
         
         for(int i=0;i<nums.length;i++){
-            int newXor = totalXor^nums[i];
-            if(newXor != 0){
+            if(nums[i] != 0){
                 return nums.length-1;
             }
         }
