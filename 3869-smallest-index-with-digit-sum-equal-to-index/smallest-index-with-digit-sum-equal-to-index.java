@@ -9,8 +9,7 @@ class Solution {
             temp /= 10;
            }
            if(sum == i){
-                minIdx = i;
-                break;
+                return i;
            }
         }
         return minIdx;
